@@ -92,3 +92,51 @@ img{
 .statistic h2{
     font-weight: bolder;
 }
+
+.progress-bar{
+   /* display: flex;
+    flex-direction: row;*/
+    display: grid;
+    grid-template-columns: 15% auto 5%;
+    margin: 1%;
+}
+
+.progress-bar-border{
+    background-color: white;
+    width: 100%;
+    margin-left: 2%;
+   
+}
+
+.progress-bar-filling{
+   
+    height: 15px;
+    background-color: #333333;
+    
+}
+
+.progress-bar-title{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #696662;
+}
+
+.progress-50{
+    width: 50%;
+}
+
+.progress-40{
+    width: 40%;
+}
+
+.progress-70{
+    width: 70%;
+}
+
+.progress-30{
+    width: 30%;
+}
+
+.progress-60{
+    width: 60%;
+}
